@@ -1,0 +1,32 @@
+@import "../../global.scss";
+.topbar{
+    width: 100%;
+    height: 60px;
+    background-color: $mainBKColor2;
+    color: $mainColor;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .itemContainer{
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+            margin-right: 10px;
+            .logo{
+                font-size: 30px;
+                font-weight: 700;
+                color: inherit;
+                text-decoration: none;
+                margin-left: $Spacer20;
+                margin-right: $Spacer20;
+            }
+        }
+    }
+}

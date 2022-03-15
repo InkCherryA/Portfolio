@@ -1,0 +1,45 @@
+@import "../../global.scss";
+
+.intro{
+    background-color: $mainBKColor2;
+    width: 100vw;
+    height: 100vh;
+    
+    .wrapper{
+
+        position: relative;
+        top: 30vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        .container{
+            margin-bottom: 50px;
+
+            .logo{
+                width: 100vw;
+                text-align: center;
+                font-size: 60px;
+                font-weight: 700;
+                color: $mainColor;
+            }
+
+            .intro1{
+                width: 50vw;
+                text-align: center;
+                font-size: 10px;
+                font-weight: 200;
+                color: $mainColor;
+            }
+
+            .intro2{
+                text-decoration: underline;
+                font-size: 10px;
+                font-weight: 200;
+                color: $mainColor;
+                cursor: pointer;
+            }
+        }
+    }
+}
