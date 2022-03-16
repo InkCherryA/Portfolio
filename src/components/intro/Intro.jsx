@@ -2,7 +2,7 @@ import "./intro.scss"
 
 export default function Intro() {
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <div className="wrapper">
         <div className="container">
           <p className="logo">

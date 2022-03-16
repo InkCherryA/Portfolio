@@ -1,3 +1,51 @@
+@import "../../global.scss";
+
 .portfolio{
+    height: calc(100vh - 60px);
+    top: 60px;
     background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+    .wrapper1{
+        height: 100%;
+        width: 30%;
+        min-width: 300px;
+        max-width: 500px;
+        background-color: aquamarine;
+
+        .container{
+            padding: 20px 60px;
+            padding-right: 20%;
+            position: relative;
+            top: 15%;
+            color: $mainColor;
+            .title{
+                font-size: 20px;
+                font-weight: 400;
+                text-align: left;
+            }
+        }
+    }
+
+    .wrapper2{
+        height: 100%;
+        width: 100%;
+        left: 30%;
+        
+        .container{
+            padding: 20px;
+            position: relative;
+
+            .card{
+                width: 100px;
+                height: 100px;
+                background-color: black;
+            }
+        }
+        
+
+    }
+    
 }
