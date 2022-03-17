@@ -19,8 +19,14 @@ export default function Portfolio() {
       <div className="wrapper2">
         <div className="container">
           <div className="card"></div>
+        </div>
+        <div className="container">
           <div className="card"></div>
+        </div>
+        <div className="container">
           <div className="card"></div>
+        </div>
+        <div className="container">
           <div className="card"></div>
         </div>
       </div>
