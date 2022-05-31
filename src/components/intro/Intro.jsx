@@ -11,12 +11,12 @@ export default function Intro() {
 				</div>
 				<div className="container">
 					<p className="intro1">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo tenetur error nisi excepturi reprehenderit voluptas doloribus minus! Deleniti, ut inventore! Eligendi quo sapiente amet pariatur expedita nisi id. Ullam laborum aliquam facere nulla laudantium, voluptatibus corporis magnam nemo quos quod omnis, cumque, alias reprehenderit illum architecto unde a praesentium nihil?
+						Annie He is an architecture student at the Cooper Union for the Advancement of Science and Art. This website displays a collection of works spanning architectural design, interaction design, graphic design, game design, fabrication, computer programming, etc.
 					</p>  
 				</div>
 				<div className="container">
 					<a href="/about" className="intro2">
-						read more
+						view curriculum vitae
 					</a>
 				</div>
 			</div>

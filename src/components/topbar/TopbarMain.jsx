@@ -1,6 +1,6 @@
 import "./topbar.scss"
 
-export default function Topbar() {
+export default function TopbarMain(){
   return (
     <div className="topbar active">
         <div className="wrapper">

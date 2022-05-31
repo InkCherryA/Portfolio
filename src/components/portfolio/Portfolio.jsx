@@ -16,18 +16,54 @@ export default function Portfolio() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas praesentium inventore tenetur mollitia odit corporis eum exercitationem eligendi, repellat deleniti voluptatum repudiandae enim sequi nihil recusandae in consectetur incidunt numquam ea perspiciatis a harum quaerat. Reiciendis odit perferendis blanditiis porro, aut expedita nulla, est unde, voluptas ducimus ab natus alias!</p>
         </div>
       </div>
+
+
       <div className="wrapper2">
-        <div className="container">
-          <div className="card"></div>
+        
+        <div className="row" id='row1'>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
         </div>
-        <div className="container">
-          <div className="card"></div>
-        </div>
-        <div className="container">
-          <div className="card"></div>
-        </div>
-        <div className="container">
-          <div className="card"></div>
+
+        <div className="row" id='row2'>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
+          <div className="container">
+            <div className="card"></div>
+            <p className="title">Title</p>
+          </div>
         </div>
       </div>
       

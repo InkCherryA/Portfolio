@@ -1,6 +1,6 @@
 @import "./global.scss";
 
-.app{
+.main{
     height: 100vh;
 
     .section{
@@ -11,11 +11,10 @@
         top: 0px;
         scroll-behavior:smooth;
         scroll-snap-type: y mandatory;
-        scrollbar-color: grey;
-        // scrollbar-width: none;
-        // &::-webkit-scrollbar{
-        //     display: none;
-        // }
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         > *{
             scroll-snap-align: start;

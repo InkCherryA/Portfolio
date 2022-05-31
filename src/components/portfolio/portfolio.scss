@@ -3,17 +3,19 @@
 .portfolio{
     height: calc(100vh - #{$topbarH});
     top: $topbarH;
-    background-color: lightsalmon;
+    background-color: $mainBKColor1;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: start;
+
     .wrapper1{
         height: 100%;
         width: 30%;
         min-width: 300px;
         max-width: 500px;
-        background-color: aquamarine;
+        background-color: $mainBKColor3;
+        overflow: hidden;
 
         .container{
             padding: 20px 60px;
@@ -30,24 +32,54 @@
     }
 
     .wrapper2{
+        padding-left: 40px;
         height: 100%;
         width: 100%;
         left: 30%;
         display: flex;
         flex-direction: column;
-        
-        .container{
-            padding: 20px;
-            position: relative;
+        justify-content: center;
+        overflow: scroll;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
-            .card{
-                width: 100px;
-                height: 100px;
-                background-color: black;
+        .row{
+            display: flex;
+            flex-direction: row;
+            overflow: visible;
+
+            .container{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                overflow: visible;
+
+                .card{
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    width: 30vh;
+                    height: 30vh;
+                    background-color: grey;
+                    border-radius: 10px;
+                    overflow: visible;
+                    scrollbar-width: none;
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                }
+    
+                .title{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    font-size: 10px;
+                    font-weight: 400;
+                    overflow: hidden;
+
+                }
             }
         }
-        
-
     }
-    
 }
